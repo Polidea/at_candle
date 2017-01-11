@@ -4,7 +4,7 @@ apply plugin: "kotlin-android"
 buildscript {
 
     dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.1-M04"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 
@@ -39,7 +39,7 @@ dependencies {
     provided 'com.google.android.things:androidthings:0.1-devpreview'
     compile 'com.google.android.things.contrib:driver-button:0.1'
     compile 'com.android.support:appcompat-v7:25.1.0'
-    compile "org.jetbrains.kotlin:kotlin-stdlib:1.1-M03"
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     testCompile 'junit:junit:4.12'
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
